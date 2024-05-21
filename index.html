@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impulse Gym</title>
+    <link rel="shortcut icon" href="./images/gym-icon_30328.png" type="image/x-icon">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#home">
+            <img src="./images/gym-icon_30328.png" alt="Impulse Gym Logo" width="30" height="30">
+            <span>Impulse Gym</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#benefits">Benefícios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Depoimentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#programs">Programas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#signup">Inscrição</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacts">Contatos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home" class="text-center py-6">
+        <div class="container">
+            <h1 class="display-4">Impulse Gym: Impulsione Seu Corpo, Transforme Sua Vida</h1>
+            <p class="lead">Venha fazer parte da academia que combina tecnologia, inovação e uma comunidade motivadora.</p>
+            <a href="#signup" class="btn btn-primary btn-lg mt-3">Inscreva-se Agora e Ganhe um Mês Grátis</a>
+        </div>
+    </section>
+
+    <section id="benefits" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Benefícios da Impulse Gym</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Treinamento personalizado com profissionais qualificados</li>
+                <li class="list-group-item">Equipamentos de última geração</li>
+                <li class="list-group-item">Ambiente motivador e acolhedor</li>
+                <li class="list-group-item">Planos flexíveis para todas as necessidades</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Depoimentos de Clientes</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"Desde que me inscrevi na Impulse Gym, minha energia e autoestima aumentaram significativamente." - Ana P.</p>
+                    </blockquote>
+                </div>
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"O ambiente é incrível e os treinadores são super atenciosos. Recomendo a todos!" - Carlos M.</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Programas de Treinamento</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Treinamento Funcional</li>
+                <li class="list-group-item">Musculação</li>
+                <li class="list-group-item">Aulas de Yoga e Pilates</li>
+                <li class="list-group-item">Treinos de Alta Intensidade (HIIT)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="signup" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Inscreva-se Agora</h2>
+            <form action="https://gmail.us22.list-manage.com/subscribe/post?u=ddaf41a5f22246776bb5a96ae&amp;id=e865a8f990&amp;f_id=00a3cfe1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" class="form-control" id="name" name="NAME" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="EMAIL" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" class="form-control" id="phone" name="PHONE" pattern="[0-9]{10,11}" title="Por favor, insira um número de telefone válido" required>
+                </div>
+                <div class="form-group">
+                    <label for="goal">Objetivo do Treinamento:</label>
+                    <input type="text" class="form-control" id="goal" name="OBJECTIVE">
+                </div>
+
+                <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups  -->
+                <input type="text" name="b_ddaf41a5f22246776bb5a96ae_e865a8f990" tabindex="-1" value="">
+            </div>
+
+
+
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Quero Meu Mês Grátis</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <div class="container">
+            <p>Endereço: Rua aaaa, 123 - Sobradinho, Bahia</p>
+            <p>Telefone: (74) 90000-0000 | Email: contato@impulsegym.com</p>
+            <p>© 2024 Impulse Gym. Todos os direitos reservados.</p>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d503455.59460760193!2d-41.22045008877818!3d-9.659938514764821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x773b729f6b8cbf9%3A0xdf23b5a1084467ae!2sSobradinho%20-%20BA!5e0!3m2!1spt-BR!2sbr!4v1716312800498!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

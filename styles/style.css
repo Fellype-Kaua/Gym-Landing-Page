@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#home {
+    background: url('../images/vecteezy_treadmill-in-modern-gym-toned-image-3d-rendering_22653711.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+#home h1, #home p{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.cta-button {
+    margin-top: 20px;
+}
+
+blockquote {
+    background-color: #f8f9fa;
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
